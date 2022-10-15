@@ -1,0 +1,87 @@
+.referral__con {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 100px;
+    text-align: center;
+    gap: 30px;
+    width: 100%;
+
+    p {
+        font-weight: 800;
+    }
+
+    .referral__card1 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+        width: 45%;
+        border-radius: 10px;
+        background-color: white;
+        padding: 30px 20px;
+
+        @media screen and (max-width: 1000px) {
+            width: 80%;
+        }
+
+        p {
+            font-weight: 400;
+            font-size: 12px;
+            background-color: inherit;
+        }
+
+        .card1__info {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            background-color: inherit;
+            gap: 10px;
+            width: 100%;
+
+            .card1__link {
+                font-size: 12px;
+            }
+
+            hr {
+                color: black;
+                width: 100%;
+            }
+
+            @media screen and (max-width: 550px) {
+                .card1__link {
+                    font-size: 10px;
+                    width: 100%;
+                    overflow-wrap: break-word;
+                }
+
+            }
+        }
+    }
+
+    .referral__card2 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 45%;
+        border-radius: 10px;
+        background-color: white;
+        padding: 30px 20px;
+
+        @media screen and (max-width: 1000px) {
+            width: 80%;
+        }
+
+        p {
+            font-weight: 400;
+            font-size: 12px;
+            background-color: inherit;
+        }
+
+    }
+}

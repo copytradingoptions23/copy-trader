@@ -1,0 +1,184 @@
+.cryptopage__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    gap: 50px;
+}
+
+.cryptopage__price__div {
+    display: flex;
+    background-color: white;
+    color: gray;
+}
+.cryptopage__price {
+    background-color: white;
+    color: gray;
+}
+
+.cryptopage__text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.cryptopage__p1 {
+    font-size: 15px;
+    font-weight: 800;
+    cursor: pointer;
+}
+
+.cryptopage__p2 {
+    font-size: 20px;
+    color: #0086dc;
+    cursor: pointer;
+}
+
+.cryptopage__p3 {
+    font-size: 20px;
+    color: #0086dc;
+    cursor: pointer;
+}
+
+.cryptopage__box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    width: 30%;
+    padding: 40px 20px;
+    gap: 20px;
+
+    box-shadow: rgba(0, 0, 0, 0.2) 2px 2px 15px;
+    border-radius: 5px;
+}
+
+.cryptopage__usd {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    width: 100%;
+}
+
+.cryptopage__usd__smallp {
+    background-color: white;
+    font-size: 9px;
+    width: 65%;
+}
+
+.cryptopage__usd__input {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+    align-items: center;
+    width: 100%;
+    background-color: white;
+}
+
+.cryptopage__usd__p {
+    background-color: white;
+    width: 10%;
+}
+
+.usd__input {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 10px;
+    align-items: center;
+    background-color: white;
+    width: 90%;
+
+    border: 0.5px solid gray;
+    border-radius: 5px;
+}
+
+.cryptopage__payment {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    width: 100%;
+}
+
+.cryptopage__payment__smallp {
+    background-color: white;
+    font-size: 9px;
+    width: 93%;
+}
+
+.selector__div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.selector {
+    padding: 15px 10px;
+    border-radius: 5px;
+    width: 100%;
+    background-color: white;
+}
+
+.cryptopage__to {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    width: 100%;
+}
+
+.cryptopage__to__smallp {
+    background-color: white;
+    font-size: 9px;
+    width: 93%;
+}
+
+.cryptopage__proceed {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: #0086dc;
+    color: white;
+    border-radius: 5px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.cryptopage__button {
+    background-color: #0086dc;
+    padding: 5px 15px;
+}
+
+.closed__display {
+    display: none;
+}
+
+@media screen and (max-width: 980px) {
+    .cryptopage__box {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: white;
+        width: 80%;
+        padding: 40px 20px;
+        gap: 20px;
+
+        box-shadow: rgba(0, 0, 0, 0.2) 2px 2px 15px;
+        border-radius: 5px;
+    }
+}

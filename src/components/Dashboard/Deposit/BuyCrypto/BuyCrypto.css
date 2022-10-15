@@ -1,0 +1,63 @@
+.buycrypto__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    gap: 40px;
+}
+
+.buycrypto__text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.buycrypto__h1 {
+    font-weight: 700;
+}
+
+.buycrypto__p {
+    font-weight: 500;
+}
+
+.buycrypto__plans {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    width: 100%;
+}
+
+.buycrypto__properties {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    padding: 15px;
+    border-radius: 10px;
+    background-color: white;
+    color: #26a69a;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.buycrypto__trading:hover {
+    background-color: lightgray;
+}
+
+.buycrypto__mining:hover {
+    background-color: lightgray !important;
+}
+
+.buycrypto__plan__p {
+    font-weight: 500;
+    background-color: inherit;
+}
+
+.buycrypto__plan__p:hover {
+    background-color: lightgray;
+}

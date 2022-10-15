@@ -1,0 +1,39 @@
+.insideNav__container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 20px;
+    background-color: white;
+}
+
+.insideNav__icons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+}
+
+.insideNav__time {
+    color: #0086dc;
+}
+
+.insideNav__lang__div {
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    color: #0086dc;
+}
+
+.insideNav__lang {
+    width: 20px;
+    height: 20px;
+}
+
+@media (max-width: 550px) {
+    .insideNav__h1 {
+        font-size: 20px;
+    }
+
+}

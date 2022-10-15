@@ -1,0 +1,117 @@
+.notification__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    color: gray;
+
+    .notification__con {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        text-align: center;
+
+        .notification__box {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            width: 45%;
+            box-shadow: rgba(0, 0, 0, 0.2) 2px 2px 15px;
+            border-radius: 5px;
+            background-color: white;
+            gap: 30px;
+            padding: 30px;
+            padding-bottom: 60px;
+
+            @media screen and (max-width: 1024px) {
+                width: 75%;
+            }
+
+            .notification__head {
+                display: flex;
+                justify-content: flex-start;
+                flex-direction: column;
+                align-items: flex-start;
+                gap: 50px;
+                background-color: inherit;
+                text-align: left;
+                color: gray;
+
+                .notification__p1 {
+                    font-size: 15px;
+                    background-color: inherit;
+                    text-align: left;
+
+                    @media screen and (max-width: 900px) {
+                        display: none;
+                    }
+                }
+
+                .notification__p2 {
+                    font-size: 12px;
+                    text-align: left;
+                    background-color: inherit;
+                }
+            }
+
+            .notification__inputs {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                gap: 60px;
+                background-color: inherit;
+                width: 100%;
+
+                .notification__pem {
+                    background-color: inherit;
+                    width: 100%;
+
+                    .notification__smallp {
+                        background-color: white;
+                        font-size: 9px;
+                        width: 25%;
+                        background-color: inherit;
+                        text-align: left;
+
+                        @media screen and (max-width: 1000px) {
+                            width: 55%;
+                        }
+                    }
+
+                    .selector__div {
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        width: 100%;
+                        background-color: inherit;
+                    }
+
+                    .selector {
+                        padding: 15px 10px;
+                        border-radius: 5px;
+                        width: 100%;
+                        background-color: white;
+                    }
+                }
+
+                .notification__button {
+                    background-color: #0086dc !important;
+                    width: 100%;
+                    padding: 5px;
+
+                    p {
+                        color: white;
+                        background-color: inherit;
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,46 @@
+.investors__container {
+    display: grid;
+    grid-template-columns: auto auto;
+    padding: 30px;
+    gap: 20px;
+}
+
+.investors__info {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    justify-content: center;
+}
+
+.investors__text {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-bottom: 50px;
+}
+
+.investors__button__div {
+    display: flex;
+
+    cursor: pointer;
+}
+
+.investors__button {
+    padding: 15px 40px;
+    border-radius: 8px;
+    background: #010121;
+    color: #0086dc !important;
+    border: 2px solid #0086dc;
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+@media screen and (max-width: 1000px) {
+    .investors__container {
+        display: grid;
+        grid-template-columns: auto;
+        padding: 30px;
+        gap: 20px;
+    }
+}

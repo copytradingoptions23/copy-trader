@@ -1,0 +1,44 @@
+.wm__con {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    gap: 30px;
+    width: 100%;
+
+    p {
+        font-weight: 800;
+    }
+
+    .wm__cards {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        gap: 8px;
+
+        .wm__card {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding: 35px 0px;
+            background-color: white;
+            width: 35%;
+            border-radius: 10px;
+            cursor: pointer;
+
+            p {
+                background-color: inherit;
+                color: #0086dc;
+            }
+
+            &:hover {
+                background-color: lightgray;
+            }
+        }
+    }
+}

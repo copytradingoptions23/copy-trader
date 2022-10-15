@@ -1,0 +1,109 @@
+.mining__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 100px;
+    gap: 40px;
+}
+
+.mining__cards {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 20px;
+    padding: 20px;
+}
+
+.mining__card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    background-color: white;
+    padding: 30px 50px;
+
+    box-shadow: rgba(0, 0, 0, 0.2) 2px 2px 15px;
+    border-radius: 15px;
+    color: gray;
+    text-align: center;
+}
+
+.mining__heading {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: inherit;
+}
+
+.mining__heading__p {
+    background-color: inherit;
+    font-size: 15px;
+}
+
+.mining__heading__h1 {
+    background-color: inherit;
+    color: #004b9e;
+    font-weight: 800;
+}
+
+.mining__body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    gap: 20px;
+}
+.mining__body__p {
+    background-color: inherit;
+    font-size: 14px;
+}
+
+.mining__button {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    background-color: #0086dc;
+    padding: 12px 25px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.mining__button:hover {
+    background-color: #039be5;
+}
+
+.mining__button__p {
+    background-color: inherit;
+    color: white;
+}
+
+@media screen and (max-width: 980px) {
+    .mining__cards {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .mining__card {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 40px;
+        background-color: white;
+        padding: 30px 50px;
+
+        box-shadow: rgba(0, 0, 0, 0.2) 2px 2px 15px;
+        border-radius: 15px;
+        color: gray;
+        text-align: center;
+        width: 65%;
+    }
+}

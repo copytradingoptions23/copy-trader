@@ -1,0 +1,119 @@
+.trader-con {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin-top: 40px;
+    background-color: #f5f7fe;
+    color: #4a4a4a;
+}
+
+.trader-search {
+    width: 70%;
+}
+
+.trader-search>input {
+    height: 50px;
+    width: 100%;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+.trader-card-con {
+    display: flex;
+    width: 60%;
+    flex-direction: column;
+    justify-content: right;
+    align-items: center;
+    margin-bottom: 40px;
+    gap: 20px;
+
+}
+
+.trader-card {
+    width: 100%;
+    height: 150px;
+    background-color: white;
+    display: flex;
+    border-radius: 12px;
+    align-items: center;
+    justify-content: right;
+
+    &:hover {
+        background-color: lightgray;
+    }
+
+}
+
+.trader-img {
+    width: 20%;
+    margin: 0 40px;
+
+    img {
+        height: 80px;
+        width: 80px;
+        border-radius: 50%;
+    }
+}
+
+.trader-text {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    gap: 5px
+}
+
+.trade-btn {
+    width: 30%;
+
+    button {
+        background-color: #4CAF50 !important;
+        border-color: #4CAF50 !important;
+        height: 50px;
+        width: 30%;
+        color: white;
+        font-weight: bold;
+        font-size: 20px;
+        border-radius: 5px;
+    }
+
+}
+
+@media (max-width: 550px) {
+
+    .trader-card-con {
+        display: flex;
+        width: 95%;
+
+
+    }
+
+    .trader-img {
+
+        margin: 0 20px;
+
+        img {
+            height: 60px;
+            width: 60px;
+            border-radius: 50%;
+        }
+    }
+
+    .trade-btn {
+        margin-right: 10px;
+
+        button {
+            background-color: #4CAF50 !important;
+            border-color: #4CAF50 !important;
+            height: 40px;
+            width: 100%;
+            color: white;
+            font-weight: bold;
+            font-size: 18px;
+            border-radius: 5px;
+        }
+
+    }
+}

@@ -1,0 +1,116 @@
+.belownav__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    bottom: 0;
+    position: fixed;
+    border: 1px solid lightgray;
+    background-color: white !important;
+    margin-top: 100px;
+
+    @media screen and (max-width: 450px) {
+        background-color: white !important;
+    }
+
+    .belownav__con {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+
+        @media screen and (max-width: 450px) {
+            background-color: white !important;
+        }
+
+        .belownav__icons {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+            width: 70%;
+            gap: 50px;
+
+            @media screen and (max-width: 1000px) {
+                gap: 120px;
+            }
+
+            @media screen and (max-width: 720px) {
+                gap: 90px;
+            }
+
+            @media screen and (max-width: 550px) {
+                gap: 60px;
+            }
+
+            @media screen and (max-width: 450px) {
+                gap: 50px;
+            }
+
+            @media screen and (max-width: 380px) {
+                gap: 30px;
+            }
+
+            @media screen and (max-width: 450px) {
+                background-color: white !important;
+            }
+
+            .belownav__icon__div {
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                align-items: center;
+                gap: 15px;
+                color: gray;
+
+                &:hover {
+                    cursor: pointer;
+                    color: rgb(109, 112, 202);
+
+                    .belownav__icon {
+                        color: rgb(109, 112, 202);
+
+                    }
+                }
+
+
+
+                @media screen and (max-width: 450px) {
+                    background-color: white !important;
+
+                    &:hover {
+                        cursor: pointer;
+                        color: rgb(109, 112, 202);
+
+                        .belownav__icon {
+                            color: rgb(109, 112, 202);
+
+                        }
+                    }
+                }
+
+                .belownav__icon {
+                    font-size: 30px;
+                    color: gray;
+
+                    @media screen and (max-width: 450px) {
+                        background-color: white !important;
+                    }
+
+                }
+
+                p {
+                    @media screen and (max-width: 1000px) {
+                        display: none;
+                    }
+
+                    @media screen and (max-width: 450px) {
+                        background-color: white !important;
+                    }
+                }
+            }
+        }
+    }
+}

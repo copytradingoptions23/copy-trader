@@ -1,0 +1,140 @@
+.pay__con {
+    width: 100%;
+    display: flex;
+    background-color: #f5f7fe;
+    color: #777777;
+    justify-content: center;
+    align-items: center;
+    font-weight: 500;
+}
+
+.pay__card {
+    display: flex;
+    flex-direction: column;
+    width: 35%;
+    margin-top: 40px;
+    margin-bottom: 80px;
+    justify-content: center;
+    border-radius: 12px;
+    align-items: center;
+    background: white;
+    gap: 30px;
+    box-shadow: 0 2px 2px 0 rgb(0 0 0 / 14%), 0 3px 1px -2px rgb(0 0 0 / 12%), 0 1px 5px 0 rgb(0 0 0 / 20%);
+    padding: 40px 40px;
+
+    p {
+        font-size: 18px;
+        text-align: center;
+    }
+}
+
+.pay__copy {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+
+    p {
+        padding: 15px;
+        border-radius: 12px;
+        box-shadow: 0 2px 2px 0 rgb(0 0 0 / 14%), 0 3px 1px -2px rgb(0 0 0 / 12%), 0 1px 5px 0 rgb(0 0 0 / 20%);
+    }
+}
+
+.copy {
+    cursor: pointer;
+}
+
+.pay__qrcode {
+    width: 40%;
+
+    img {
+        width: 100%;
+    }
+}
+
+.pay__timer {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.pay__upload {
+    width: 70%;
+    background-color: #0086dc;
+    padding: 20px;
+    border-radius: 8px;
+
+    p {
+        color: white;
+        font-size: 18px;
+        font-weight: 500;
+    }
+}
+
+.pay__confirm {
+    width: 70%;
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 40px;
+    border: 1px solid #0086dc;
+
+
+    p {
+        color: #0086dc;
+        font-size: 18px;
+        font-weight: 500;
+    }
+}
+
+@media (max-width: 550px) {
+    .pay__card {
+        width: 95%;
+        gap: 20px;
+
+        p {
+            font-size: 16px;
+            text-align: center;
+        }
+    }
+
+    .pay__copy {
+        display: flex;
+        gap: 5px;
+        align-items: center;
+
+        p {
+            font-size: 12px;
+            padding: 5px;
+            border-radius: 4px;
+            box-shadow: 0 2px 2px 0 rgb(0 0 0 / 14%), 0 3px 1px -2px rgb(0 0 0 / 12%), 0 1px 5px 0 rgb(0 0 0 / 20%);
+        }
+    }
+
+
+
+    .pay__upload {
+        width: 80%;
+        padding: 10px;
+
+        p {
+            color: white;
+            font-size: 14px;
+            font-weight: 500;
+        }
+    }
+
+    .pay__confirm {
+        width: 80%;
+        padding: 10px;
+
+        p {
+            color: #0086dc;
+            font-size: 14px;
+            font-weight: 500;
+        }
+    }
+
+}
