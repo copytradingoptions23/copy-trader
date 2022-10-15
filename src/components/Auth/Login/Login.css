@@ -1,0 +1,148 @@
+*,
+*:before,
+*:after {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(245, 245, 245);
+}
+
+.login-main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.login-form {
+    margin-top: 100px;
+    margin-bottom: 300px;
+    height: 550px;
+    width: 30%;
+    background-color: rgba(255, 255, 255, 0.13);
+    border-radius: 10px;
+    backdrop-filter: blur(10px);
+    border: 2px solid rgba(255, 255, 255, 0.1);
+    box-shadow: 0 0 40px rgba(8, 7, 16, 0.6);
+    padding: 50px 35px;
+
+}
+
+.login-form * {
+    color: #4a4a4a;
+    letter-spacing: 0.5px;
+    outline: none;
+    border: none;
+}
+
+.login-img {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.login-img>img {
+    width: 50px;
+}
+
+.error {
+    color: red;
+    margin-top: 10px;
+    margin-bottom: -20px;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+label {
+    display: block;
+    margin-top: 30px;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.log-input {
+    display: block;
+    height: 50px;
+    width: 100%;
+    background-color: rgba(61, 56, 56, 0.07);
+    border-radius: 3px;
+    padding: 0 10px;
+    margin-top: 8px;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+::placeholder {
+    color: #3f3a3a;
+}
+
+.log-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    width: 100%;
+    background-color: #6e5ce4;
+    color: white;
+    padding: 15px 0;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.log-spin {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.extra-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    margin-top: 15px;
+}
+
+.forgot {
+    color: #6e5ce4;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+.reg>a {
+    text-decoration: none;
+    color: #6e5ce4;
+    font-weight: 600;
+}
+
+@media (min-width: 321px) and (max-width: 490px) {
+
+    .login-form {
+        margin-top: 0px;
+    }
+
+}
+
+@media (min-width: 321px) and (max-width: 490px) {
+
+    .login-form {
+        margin-top: 50px;
+        margin-bottom: 50px;
+        height: 550px;
+        width: 90%;
+        background-color: rgba(255, 255, 255, 0.13);
+        border-radius: 10px;
+        backdrop-filter: blur(10px);
+        border: 2px solid rgba(255, 255, 255, 0.1);
+        box-shadow: 0 0 40px rgba(8, 7, 16, 0.6);
+        padding: 50px 35px;
+    }
+
+}

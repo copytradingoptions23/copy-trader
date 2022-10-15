@@ -1,0 +1,96 @@
+.traderlist-con {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin-top: 40px;
+    background-color: #f5f7fe;
+    color: #4a4a4a;
+}
+
+.traderlist-search {
+    width: 70%;
+}
+
+.traderlist-search>input {
+    height: 50px;
+    width: 100%;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+.traderlist-card-con {
+    display: flex;
+    width: 60%;
+    flex-direction: column;
+    justify-content: right;
+    align-items: center;
+    margin-bottom: 40px;
+    gap: 20px;
+
+}
+
+.traderlist-card {
+    width: 100%;
+    height: 150px;
+    background-color: white;
+    display: flex;
+    border-radius: 12px;
+    align-items: center;
+    justify-content: left;
+
+    &:hover {
+        background-color: lightgray;
+    }
+
+}
+
+.traderlist-img {
+    width: 20%;
+    margin: 0 40px;
+
+    img {
+        height: 80px;
+        width: 80px;
+        border-radius: 50%;
+    }
+}
+
+.traderlist-text {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+
+    gap: 5px;
+
+    span {
+        color: #cf2465;
+        font-weight: 700;
+    }
+}
+
+
+@media (max-width: 550px) {
+
+    .traderlist-card-con {
+        display: flex;
+        width: 95%;
+
+
+    }
+
+    .traderlist-img {
+
+        margin: 0 20px;
+
+        img {
+            height: 60px;
+            width: 60px;
+            border-radius: 50%;
+        }
+    }
+
+
+}

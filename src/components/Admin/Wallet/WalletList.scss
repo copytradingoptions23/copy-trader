@@ -1,0 +1,87 @@
+.walletlist-con {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin-top: 40px;
+    background-color: #f5f7fe;
+    color: #4a4a4a;
+}
+
+
+.walletlist-card-con {
+    display: flex;
+    width: 80%;
+    flex-direction: column;
+    justify-content: right;
+    align-items: center;
+    margin-bottom: 40px;
+    gap: 20px;
+
+}
+
+.walletlist-card {
+    width: 100%;
+    height: 100px;
+    background-color: white;
+    display: flex;
+    border-radius: 12px;
+    align-items: center;
+    justify-content: left;
+
+    &:hover {
+        background-color: lightgray;
+    }
+
+}
+
+
+.walletlist-text {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    padding: 0 40px;
+
+    gap: 15px;
+
+    span {
+        color: #cf2465;
+        font-weight: 700;
+    }
+}
+
+.walletlist-btn {
+    width: 30%;
+    color: #26a69a;
+    font-size: 30px;
+
+    text-align: center;
+
+}
+
+
+@media (max-width: 550px) {
+
+    .walletlist-card-con {
+        display: flex;
+        width: 95%;
+
+
+    }
+
+    .walletlist-text {
+        font-size: 12px;
+    }
+
+    .walletlist-btn {
+        width: 30%;
+        color: #26a69a;
+        font-size: 18px;
+
+        text-align: center;
+
+    }
+
+}
