@@ -1,0 +1,8 @@
+.home-container {
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #010121;
+}

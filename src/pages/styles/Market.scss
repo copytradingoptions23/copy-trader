@@ -1,0 +1,91 @@
+.market {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    background-color: #f5f7fe;
+    color: #4a4a4a;
+}
+
+.mkt__con {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.mkt__select {
+    width: 10%;
+    cursor: pointer;
+}
+
+.mkt__select>select {
+    border: 0.1px solid #777777;
+    height: 50px;
+    width: 100%;
+    font-size: 18px;
+    text-align: left;
+    cursor: pointer;
+    padding-left: 10px;
+    text-decoration: none;
+}
+
+
+.mkt__err {
+    width: 85%;
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    padding: 15px 30px;
+    border-radius: 12px;
+    font-size: 17px;
+    font-weight: 500;
+}
+
+.mkt__list-d {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.mkt__list-m {
+    display: none;
+}
+
+@media (max-width: 720px) {
+    .mkt__list-d {
+        display: none;
+    }
+
+    .mkt__list-m {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .mkt__con {
+        width: 95%;
+    }
+
+    .mkt__select {
+        width: 50%;
+    }
+
+    .mkt__select>select {
+        border-radius: 12px;
+        font-size: 15px;
+    }
+
+    .mkt__err {
+        font-size: 14px;
+    }
+}

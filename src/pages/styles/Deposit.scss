@@ -1,0 +1,87 @@
+.deposit {
+    background-color: #f5f7fe;
+}
+
+.deposit__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    background-color: #f5f7fe;
+    padding: 20px;
+    height: 100%;
+    margin-bottom: 100px;
+}
+
+.deposit__button__div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.deposit__button {
+    padding: 15px 40px;
+    border-radius: 8px;
+    border: none;
+    background-color: #0086dc;
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.deposit__content__div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #e0e0e0;
+    padding: 40px;
+    width: 80%;
+    border-radius: 15px;
+    margin-bottom: 10px;
+
+    @media (max-width: 550px) {
+        width: 95%;
+    }
+}
+
+.deposit__content__div-on {
+    display: flex;
+    align-items: center;
+    background-color: #e0e0e0;
+    padding: 40px;
+    width: 80%;
+    border-radius: 15px;
+    margin-bottom: 10px;
+
+    .deposit__con {
+        width: 20%;
+    }
+
+
+    @media (max-width: 550px) {
+        width: 95%;
+
+        h2 {
+            font-size: 14px
+        }
+
+        p {
+            font-size: 14px;
+        }
+    }
+}
+
+
+
+.deposit__middle {
+    text-align: left;
+    width: 60%;
+}
+
+.deposit__no__p {
+    background-color: #e0e0e0;
+}

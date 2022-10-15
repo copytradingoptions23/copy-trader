@@ -1,0 +1,107 @@
+.mint__user {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 60px;
+    background-color: #f5f7fe;
+}
+
+.mint__con {
+    width: 90%;
+    display: flex;
+    gap: 40px;
+}
+
+.mint__left {
+    width: 30%;
+}
+
+.mint__right {
+    width: 70%;
+}
+
+.mint__card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    background: url("../../assets/dashboard/mi_gradient.webp");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 200px;
+    border-radius: 15px;
+    padding: 40px 20px;
+    color: white;
+    cursor: pointer;
+}
+
+
+.mint__card__col {
+    display: flex;
+    width: 100%;
+}
+
+.mint__card__col>h2 {
+    font-weight: bold;
+}
+
+
+.mint__card__col1 {
+    width: 100%;
+    text-align: left;
+    margin-top: 20px;
+
+    h2 {
+        font-size: 40px;
+    }
+}
+
+.mi__block {
+    display: flex;
+    width: 100%;
+    margin-top: 10px;
+    gap: 5px;
+}
+
+.mi__block>div {
+    width: 50%;
+    text-align: center;
+    padding: 20px;
+    border: 1px solid #0086dc;
+    color: #0086dc;
+}
+
+
+.mi__img {
+    width: 40px;
+    height: 50px;
+    background-color: aqua;
+    border-radius: 200px;
+    margin-right: 40px;
+
+    img {
+        border-radius: 10px;
+
+    }
+}
+
+
+
+@media (max-width: 900px) {
+    .mint__con {
+        width: 95%;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .mint__left {
+        width: 100%;
+    }
+
+    .mint__right {
+        width: 100%;
+    }
+}

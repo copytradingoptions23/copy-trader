@@ -1,0 +1,140 @@
+.contact {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    flex-direction: column;
+
+}
+
+.con-bin {
+    background: url("../../assets/detail/binary.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 350px;
+}
+
+.contact-content {
+    width: 80%;
+    box-shadow: 0 2px 2px 0 rgb(0 0 0 / 14%), 0 3px 1px -2px rgb(0 0 0 / 12%), 0 1px 5px 0 rgb(0 0 0 / 20%);
+    padding: 40px;
+    border-radius: 10px;
+}
+
+.contact-form {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 100%;
+    gap: 20px;
+
+}
+
+.con-input-box {
+    display: block;
+    border-color: #777777;
+    height: 50px;
+    width: 100%;
+    border-radius: 3px;
+    padding: 0 10px;
+    margin-top: 8px;
+
+    font-weight: 300;
+    border-radius: 5px;
+    font-size: 18px;
+
+    border: 0.1px solid gray;
+}
+
+.message-box {
+    display: block;
+    height: 150px;
+    max-height: 150px;
+    max-width: 100%;
+    width: 100%;
+    border-radius: 5px;
+    padding: 20px 20px;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    font-weight: 300;
+    font-size: 18px;
+    border: 0.1px solid gray;
+    outline: none !important;
+}
+
+.con-btn {
+    width: 20%;
+}
+
+.con-btn>button {
+    margin-top: 5px;
+    width: 100%;
+    background-color: #6e5ce4;
+    color: #080710;
+    padding: 15px 0;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 5px;
+    cursor: pointer;
+    color: white;
+    background: #f7921a;
+    border: 1px solid #f7921a;
+
+}
+
+.con-btn>button:hover {
+    background: white;
+    border: 1px solid wheat;
+    color: #777777;
+}
+
+.contact-content>p {
+    color: #777777;
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+
+.note {
+    color: #777777;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+
+@media (min-width: 321px) and (max-width: 490px) {
+    .contact-form {
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .contact-content {
+        width: 95%;
+        box-shadow: 0 2px 2px 0 rgb(0 0 0 / 14%), 0 3px 1px -2px rgb(0 0 0 / 12%), 0 1px 5px 0 rgb(0 0 0 / 20%);
+        padding: 40px;
+        border-radius: 20px;
+    }
+
+    .con-btn {
+        width: 50%;
+    }
+
+    .note {
+        color: #777777;
+        font-size: 14px;
+        font-weight: bold;
+        margin-top: 10px;
+    }
+
+
+    .contact-content>p {
+        color: #777777;
+        font-size: 14px;
+        margin-top: 10px;
+    }
+
+}
